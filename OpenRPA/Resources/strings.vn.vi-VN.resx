@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="activity_add_variables" xml:space="preserve">
+    <value>Thêm các biến</value>
+  </data>
+	<data name="activity_animatemouse" xml:space="preserve">
+    <value>Animate Mouse</value>
+  </data>
+	<data name="activity_animatemouse_help" xml:space="preserve">
+    <value>Di chuyển chuột một cách rõ ràng, thay vì di chuyển ngay lập tức đến đích</value>
+  </data>
+	<data name="activity_animatemove" xml:space="preserve">
+    <value>Animate Move</value>
+  </data>
+	<data name="activity_animatemove_help" xml:space="preserve">
+    <value>Di chuyển cửa sổ một cách rõ ràng, thay vì ngay lập tức di chuyển nó đến đích</value>
+  </data>
+	<data name="activity_blocking" xml:space="preserve">
+    <value>Chặn</value>
+  </data>
+	<data name="activity_blocking_help" xml:space="preserve">
+    <value>Chặn thực thi cho đến khi hoàn thành</value>
+  </data>
+	<data name="activity_checkrunning" xml:space="preserve">
+    <value>Kiểm tra Đang chạy</value>
+  </data>
+	<data name="activity_checkrunning_help" xml:space="preserve">
+    <value>Kiểm tra xem ứng dụng đã chạy chưa bằng cách sử dụng bộ chọn, nếu được đặt thành false, sẽ khởi chạy ứng dụng mới bất kể điều gì</value>
+  </data>
+	<data name="activity_clickdelay" xml:space="preserve">
+    <value>Nhấp vào Trì hoãn</value>
+  </data>
+	<data name="activity_clickdelay_help" xml:space="preserve">
+    <value>Độ trễ giữa mỗi lần nhấn phím</value>
+  </data>
+	<data name="activity_clickelement" xml:space="preserve">
+    <value>Nhấp vào Phần tử</value>
+  </data>
+	<data name="activity_clickelement_tooltip" xml:space="preserve">
+    <value>Nhấp vào một phần tử được tìm thấy với GetElement</value>
+  </data>
+	<data name="activity_click_to_view" xml:space="preserve">
+    <value>Bấm đúp để xem</value>
+  </data>
+	<data name="activity_closeapplication" xml:space="preserve">
+    <value>Đóng ứng dụng</value>
+  </data>
+	<data name="activity_closeapplication_tooltip" xml:space="preserve">
+    <value>Tìm ứng dụng dựa trên bộ chọn giao diện người dùng và sau đó đóng Ứng dụng</value>
+  </data>
+	<data name="activity_commentout" xml:space="preserve">
+    <value>Bình luận</value>
+  </data>
+	<data name="activity_commentout_tooltip" xml:space="preserve">
+    <value>Bỏ qua mọi thứ bên trong Hoạt động này, tiện lợi để nhanh chóng nhận xét điều gì đó</value>
+  </data>
+	<data name="activity_copyclipboard" xml:space="preserve">
+    <value>Sao chép khay nhớ tạm</value>
+  </data>
+	<data name="activity_copyclipboard_tooltip" xml:space="preserve">
+    <value>Sao chép nội dung của Clipboard vào một biến</value>
+  </data>
+	<data name="activity_datatable" xml:space="preserve">
+    <value>Bảng dữ liệu</value>
+  </data>
+	<data name="activity_datatable_help" xml:space="preserve">
+    <value>DataTable để làm việc với</value>
+  </data>
+	<data name="activity_dataview" xml:space="preserve">
+    <value>Data View</value>
+  </data>
+	<data name="activity_dataview_help" xml:space="preserve">
+    <value>DateView để làm việc với</value>
+  </data>
+	<data name="activity_detector" xml:space="preserve">
+    <value>Máy dò</value>
+  </data>
+	<data name="activity_detector_help" xml:space="preserve">
+    <value>Sẽ đợi trình phát hiện này kích hoạt, sau đó quy trình làm việc sẽ tiếp tục</value>
+  </data>
+	<data name="activity_detector_tooltip" xml:space="preserve">
+    <value>Đặt quy trình làm việc ở chế độ nhàn rỗi, chờ trên bộ phát hiện đã chọn để kích hoạt</value>
+  </data>
+	<data name="activity_displayname" xml:space="preserve">
+    <value>Tên hiển thị</value>
+  </data>
+	<data name="activity_displayname_help" xml:space="preserve">
+    <value>Tên hiển thị bên trong trình thiết kế quy trình làm việc</value>
+  </data>
+	<data name="activity_doubleclick" xml:space="preserve">
+    <value>Nhấn đúp chuột</value>
+  </data>
+	<data name="activity_doubleclick_help" xml:space="preserve">
+    <value>Nhấp đúp thay vì nhấp một lần</value>
+  </data>
+	<data name="activity_drop_hint" xml:space="preserve">
+    <value>Bỏ hoạt động</value>
+  </data>
+	<data name="activity_duration" xml:space="preserve">
+    <value>Thời lượng</value>
+  </data>
+	<data name="activity_duration_help" xml:space="preserve">
+    <value>Sẽ chạy trong thời gian</value>
+  </data>
+	<data name="activity_element" xml:space="preserve">
+    <value>Thành phần</value>
+  </data>
+	<data name="activity_element_help" xml:space="preserve">
+    <value>Nhấp vào phần tử này, kiểu trả về của tất cả các hoạt động GetElementbyid và một số hoạt động khác</value>
+  </data>
+	<data name="activity_focuselement" xml:space="preserve">
+    <value>Yếu tố tiêu điểm</value>
+  </data>
+	<data name="activity_focuselement_tooltip" xml:space="preserve">
+    <value>Đặt tiêu điểm phần tử</value>
+  </data>
+	<data name="activity_force" xml:space="preserve">
+    <value>Force</value>
+  </data>
+	<data name="activity_force_help" xml:space="preserve">
+    <value>Thực hiện hành động một cách mạnh mẽ</value>
+  </data>
+	<data name="activity_foreachdatarow" xml:space="preserve">
+    <value>Foreach DataRow</value>
+  </data>
+	<data name="activity_foreachdatarow_tooltip" xml:space="preserve">
+    <value>Liệt kê qua từng hàng bên trong DataTable</value>
+  </data>
+	<data name="activity_height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+	<data name="activity_height_help" xml:space="preserve">
+    <value>Nếu được đặt, sẽ di chuyển cửa sổ đến vị trí này</value>
+  </data>
+	<data name="activity_highlight" xml:space="preserve">
+    <value>Đánh dấu</value>
+  </data>
+	<data name="activity_highlightelement" xml:space="preserve">
+    <value>Đánh dấu phần tử</value>
+  </data>
+	<data name="activity_highlightelement_tooltip" xml:space="preserve">
+    <value>Đánh dấu một phần tử được tìm thấy với GetElement</value>
+  </data>
+	<data name="activity_ignoreerrors" xml:space="preserve">
+    <value>Bỏ qua lỗi</value>
+  </data>
+	<data name="activity_ignoreerrors_help" xml:space="preserve">
+    <value>Nếu một lỗi xảy ra, sẽ bỏ qua nó và tiếp tục</value>
+  </data>
+	<data name="activity_imageresult" xml:space="preserve">
+    <value>Kết quả hình ảnh</value>
+  </data>
+	<data name="activity_imageresult_help" xml:space="preserve">
+    <value>Trả về kết quả dưới dạng hình ảnh</value>
+  </data>
+	<data name="activity_insertclipboard" xml:space="preserve">
+    <value>Chèn khay nhớ tạm</value>
+  </data>
+	<data name="activity_insertclipboard_tooltip" xml:space="preserve">
+    <value>Chèn nội dung mới vào bộ đệm Clipboard của người dùng</value>
+  </data>
+	<data name="activity_invokeopenflow" xml:space="preserve">
+    <value>Gọi OpenFlow</value>
+  </data>
+	<data name="activity_invokeopenflow_tooltip" xml:space="preserve">
+    <value>Gọi một quy trình làm việc trong nút đã đăng ký để sử dụng RPA bên trong OpenFlow</value>
+  </data>
+	<data name="activity_invokeopenrpa" xml:space="preserve">
+    <value>Gọi OpenRPA</value>
+  </data>
+	<data name="activity_invokeopenrpa_tooltip" xml:space="preserve">
+    <value>Gọi một Dòng công việc OpenRPA cục bộ</value>
+  </data>
+	<data name="activity_invokeremoteopenrpa" xml:space="preserve">
+    <value>Gọi OpenRPA từ xa</value>
+  </data>
+	<data name="activity_invokeremoteopenrpa_tooltip" xml:space="preserve">
+    <value>Gọi Dòng công việc OpenRPA trên Robot từ xa</value>
+  </data>
+	<data name="activity_keymodifiers" xml:space="preserve">
+    <value>Công cụ sửa đổi chính</value>
+  </data>
+	<data name="activity_keymodifiers_help" xml:space="preserve">
+    <value>Giữ phím này trong khi nhấp, chỉ hoạt động nếu Nhấp chuột ảo bị tắt</value>
+  </data>
+	<data name="activity_map_variables" xml:space="preserve">
+    <value>Các biến bản đồ</value>
+  </data>
+	<data name="activity_mousebutton" xml:space="preserve">
+    <value>Nút Chuột</value>
+  </data>
+	<data name="activity_mousebutton_help" xml:space="preserve">
+    <value>Nút chuột để nhấp với</value>
+  </data>
+	<data name="activity_movemouse" xml:space="preserve">
+    <value>Di chuyển chuột</value>
+  </data>
+	<data name="activity_movemouse_tooltip" xml:space="preserve">
+    <value>Di chuyển con trỏ chuột đến một vị trí liên quan đến một phần tử được tìm thấy bằng GetElement (hoặc màn hình nền nếu không có phần tử nào được cung cấp)</value>
+  </data>
+	<data name="activity_offsetx" xml:space="preserve">
+    <value>X Offset</value>
+  </data>
+	<data name="activity_offsetx_help" xml:space="preserve">
+    <value>Nhấp với phần bù này bên trong phần tử</value>
+  </data>
+	<data name="activity_offsety" xml:space="preserve">
+    <value>Y Offset</value>
+  </data>
+	<data name="activity_offsety_help" xml:space="preserve">
+    <value>Nhấp với phần bù này bên trong phần tử</value>
+  </data>
+	<data name="activity_openapplication" xml:space="preserve">
+    <value>Mở ứng dụng</value>
+  </data>
+	<data name="activity_openapplication_tooltip" xml:space="preserve">
+    <value>Tìm kiếm phần tử Windows dựa trên một bộ chọn và đặt tiêu điểm cho nó, nếu không tìm thấy, hãy khởi động ứng dụng</value>
+  </data>
+	<data name="activity_open_selector" xml:space="preserve">
+    <value>Mở bộ chọn</value>
+  </data>
+	<data name="activity_postwait" xml:space="preserve">
+    <value>Đợi post</value>
+  </data>
+	<data name="activity_postwait_help" xml:space="preserve">
+    <value>Chờ khoảng thời gian này, sau khi thực hiện nhấp chuột, hãy giúp đầy đủ một ứng dụng có thể phản ứng rất chậm khi nhấp chuột</value>
+  </data>
+	<data name="activity_result" xml:space="preserve">
+    <value>Kết quả</value>
+  </data>
+	<data name="activity_result_help" xml:space="preserve">
+    <value>Lưu kết quả vào biến này</value>
+  </data>
+	<data name="activity_selector" xml:space="preserve">
+    <value>Bộ chọn</value>
+  </data>
+	<data name="activity_selector_help" xml:space="preserve">
+    <value>Bộ chọn được sử dụng để tìm (các) phần tử, hỗ trợ ánh xạ các biến dòng công việc bằng cách sử dụng {{variablename}}</value>
+  </data>
+	<data name="activity_select_element" xml:space="preserve">
+    <value>Chọn phần tử</value>
+  </data>
+	<data name="activity_sendctrlc" xml:space="preserve">
+    <value>Gửi Ctrl + C</value>
+  </data>
+	<data name="activity_sendctrlc_help" xml:space="preserve">
+    <value>Gửi Ctrl + C trước khi cố gắng sao chép Nội dung Bảng tạm</value>
+  </data>
+	<data name="activity_showballontop_message" xml:space="preserve">
+    <value>Thông điệp</value>
+  </data>
+	<data name="activity_showballontop_message_hint" xml:space="preserve">
+    <value>Thông báo để hiển thị</value>
+  </data>
+	<data name="activity_showballontop_title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+	<data name="activity_showballontop_title_hint" xml:space="preserve">
+    <value>Tiêu đề trên bollanmessage</value>
+  </data>
+	<data name="activity_showballoontip" xml:space="preserve">
+    <value>Hiển thị Mẹo Bóng bay</value>
+  </data>
+	<data name="activity_showballoontip_tooltip" xml:space="preserve">
+    <value>Hiển thị một hộp chú giải nhỏ gần khay hệ thống, sẽ tôn trọng cài đặt trung tâm thông báo hệ điều hành</value>
+  </data>
+	<data name="activity_stringresult" xml:space="preserve">
+    <value>Kết quả chuỗi</value>
+  </data>
+	<data name="activity_stringresult_help" xml:space="preserve">
+    <value>Trả về kết quả dưới dạng một chuỗi</value>
+  </data>
+	<data name="activity_target" xml:space="preserve">
+    <value>Mục tiêu</value>
+  </data>
+	<data name="activity_target_help" xml:space="preserve">
+    <value>Người dùng hoặc vai trò mục tiêu</value>
+  </data>
+	<data name="activity_text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+	<data name="activity_timeout" xml:space="preserve">
+    <value>Hết giờ</value>
+  </data>
+	<data name="activity_timeout_help" xml:space="preserve">
+    <value>Chờ điều này rất lâu trước khi từ bỏ và thất bại hoặc tiếp tục tùy thuộc vào các cài đặt khác</value>
+  </data>
+	<data name="activity_typetext" xml:space="preserve">
+    <value>Nhập văn bản</value>
+  </data>
+	<data name="activity_typetext_tooltip" xml:space="preserve">
+    <value>Gửi các nét trên bàn phím đến những gì từng có tiêu điểm, chỉ nên được sử dụng bởi máy ghi</value>
+  </data>
+	<data name="activity_virtualclick" xml:space="preserve">
+    <value>Nhấp chuột ảo</value>
+  </data>
+	<data name="activity_virtualclick_help" xml:space="preserve">
+    <value>Hãy thử và thực hiện Nhấp chuột ảo thay vì sử dụng chuột, không phải tất cả các phần tử đều hỗ trợ điều này</value>
+  </data>
+	<data name="activity_waitforcompleted" xml:space="preserve">
+    <value>Chờ cho đến khi hoàn thành</value>
+  </data>
+	<data name="activity_waitforcompleted_help" xml:space="preserve">
+    <value>Chờ Hoàn thành trước khi tiếp tục với quy trình làm việc</value>
+  </data>
+	<data name="activity_width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+	<data name="activity_width_help" xml:space="preserve">
+    <value>Nếu được đặt, sẽ di chuyển cửa sổ đến vị trí này</value>
+  </data>
+	<data name="activity_workflow" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+	<data name="activity_workflow_help" xml:space="preserve">
+    <value>Sử dụng workflow này</value>
+  </data>
+	<data name="activity_x" xml:space="preserve">
+    <value>X</value>
+  </data>
+	<data name="activity_x_help" xml:space="preserve">
+    <value>Nếu được đặt, sẽ di chuyển cửa sổ đến vị trí này</value>
+  </data>
+	<data name="activity_y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+	<data name="activity_y_help" xml:space="preserve">
+    <value>Nếu được đặt, sẽ di chuyển cửa sổ đến vị trí này</value>
+  </data>
+	<data name="animatemouse" xml:space="preserve">
+    <value>Sử dụng Animate Mouse</value>
+  </data>
+	<data name="author" xml:space="preserve">
+    <value>Tác giả</value>
+  </data>
+	<data name="browseraddons" xml:space="preserve">
+    <value>Tiện ích của trình duyệt</value>
+  </data>
+	<data name="button_ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+	<data name="cancelkey" xml:space="preserve">
+    <value>Hủy khóa</value>
+  </data>
+	<data name="childsession" xml:space="preserve">
+    <value>Phiên con</value>
+  </data>
+	<data name="chrome" xml:space="preserve">
+    <value>Chrome</value>
+  </data>
+	<data name="clickpostwait" xml:space="preserve">
+    <value>Đặt Click PostWait</value>
+  </data>
+	<data name="copy" xml:space="preserve">
+    <value>Sao chép</value>
+  </data>
+	<data name="copyid" xml:space="preserve">
+    <value>Sao chép ID</value>
+  </data>
+	<data name="copyrelativefilename" xml:space="preserve">
+    <value>Sao chép tên tệp tương đối</value>
+  </data>
+	<data name="debug" xml:space="preserve">
+    <value>Gỡ lỗi</value>
+  </data>
+	<data name="delete" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+	<data name="designer_menu_commentout" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+	<data name="designer_menu_runfromhere" xml:space="preserve">
+    <value>Chạy từ đây</value>
+  </data>
+	<data name="designer_menu_runthis" xml:space="preserve">
+    <value>Chạy hoạt động này</value>
+  </data>
+	<data name="designer_menu_uncomment" xml:space="preserve">
+    <value>Bỏ ghi chú</value>
+  </data>
+	<data name="details" xml:space="preserve">
+    <value>Chi tiết</value>
+  </data>
+	<data name="detectors" xml:space="preserve">
+    <value>Máy dò</value>
+  </data>
+	<data name="disable_local_caching" xml:space="preserve">
+    <value>Tắt bộ nhớ đệm cục bộ</value>
+  </data>
+	<data name="dock_logging" xml:space="preserve">
+    <value>Ghi nhật ký</value>
+  </data>
+	<data name="dock_output" xml:space="preserve">
+    <value>Đầu ra</value>
+  </data>
+	<data name="dock_properties" xml:space="preserve">
+    <value>Tính chất</value>
+  </data>
+	<data name="dock_snippets" xml:space="preserve">
+    <value>Đoạn mã</value>
+  </data>
+	<data name="dock_toolbox" xml:space="preserve">
+    <value>Hộp công cụ</value>
+  </data>
+	<data name="dock_workflowinstances" xml:space="preserve">
+    <value>Phiên bản Workflow</value>
+  </data>
+	<data name="download" xml:space="preserve">
+    <value>Tải xuống</value>
+  </data>
+	<data name="edge" xml:space="preserve">
+    <value>Edge</value>
+  </data>
+	<data name="exitapplication" xml:space="preserve">
+    <value>Thoát ứng dụng</value>
+  </data>
+	<data name="export" xml:space="preserve">
+    <value>Xuất</value>
+  </data>
+	<data name="files" xml:space="preserve">
+    <value>Tệp</value>
+  </data>
+	<data name="firefox" xml:space="preserve">
+    <value>Firefox</value>
+  </data>
+	<data name="general" xml:space="preserve">
+    <value>Chung</value>
+  </data>
+	<data name="import" xml:space="preserve">
+    <value>Nhập</value>
+  </data>
+	<data name="include_prerelease" xml:space="preserve">
+    <value>Bao gồm Prerelease</value>
+  </data>
+	<data name="install" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+	<data name="installed" xml:space="preserve">
+    <value>Đã cài đặt</value>
+  </data>
+	<data name="logging" xml:space="preserve">
+    <value>Ghi nhật ký</value>
+  </data>
+	<data name="mainnew" xml:space="preserve">
+    <value>Mới</value>
+  </data>
+	<data name="maintitle" xml:space="preserve">
+    <value>OpenRPA</value>
+  </data>
+	<data name="main_reload" xml:space="preserve">
+    <value>Tải lại</value>
+  </data>
+	<data name="main_settings_enable_child_sessions" xml:space="preserve">
+    <value>Bật phiên con</value>
+  </data>
+	<data name="main_settings_recording_add_to_designer" xml:space="preserve">
+    <value>Ghi trực tiếp vào nhà thiết kế</value>
+  </data>
+	<data name="minimize" xml:space="preserve">
+    <value>Giảm thiểu</value>
+  </data>
+	<data name="name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+	<data name="newproject" xml:space="preserve">
+    <value>Dự án mới</value>
+  </data>
+	<data name="newworkflow" xml:space="preserve">
+    <value>Workflow mới</value>
+  </data>
+	<data name="nodered" xml:space="preserve">
+    <value>NodeRED</value>
+  </data>
+	<data name="open" xml:space="preserve">
+    <value>Mở</value>
+  </data>
+	<data name="openflow" xml:space="preserve">
+    <value>OpenFlow</value>
+  </data>
+	<data name="openrpa" xml:space="preserve">
+    <value>OpenRPA</value>
+  </data>
+	<data name="open_created" xml:space="preserve">
+    <value>Được tạo lúc</value>
+  </data>
+	<data name="open_createdby" xml:space="preserve">
+    <value>Được tạo bởi</value>
+  </data>
+	<data name="open_edit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+	<data name="open_edit_xaml" xml:space="preserve">
+    <value>Chỉnh sửa XAML</value>
+  </data>
+	<data name="open_modified" xml:space="preserve">
+    <value>Sửa đổi lần cuối lúc</value>
+  </data>
+	<data name="open_modifiedby" xml:space="preserve">
+    <value>Sửa đổi lần cuối bởi</value>
+  </data>
+	<data name="open_name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+	<data name="open_package_manager" xml:space="preserve">
+    <value>Mở trình quản lý gói</value>
+  </data>
+	<data name="open_serializable" xml:space="preserve">
+    <value>Serializable</value>
+  </data>
+	<data name="open_state" xml:space="preserve">
+    <value>State</value>
+  </data>
+	<data name="packages" xml:space="preserve">
+    <value>Các gói</value>
+  </data>
+	<data name="permissions" xml:space="preserve">
+    <value>Quyền</value>
+  </data>
+	<data name="permissionswindow_delete" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+	<data name="permissionswindow_new" xml:space="preserve">
+    <value>Mới</value>
+  </data>
+	<data name="permissions_delete" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+	<data name="permissions_invoke" xml:space="preserve">
+    <value>Gọi</value>
+  </data>
+	<data name="permissions_read" xml:space="preserve">
+    <value>Đọc</value>
+  </data>
+	<data name="permissions_update" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+	<data name="play" xml:space="preserve">
+    <value>Chạy</value>
+  </data>
+	<data name="playinchildsession" xml:space="preserve">
+    <value>Chạy phần con</value>
+  </data>
+	<data name="plugins" xml:space="preserve">
+    <value>Các phần bổ trợ</value>
+  </data>
+	<data name="record" xml:space="preserve">
+    <value>Ghi lại</value>
+  </data>
+	<data name="recorderplugins" xml:space="preserve">
+    <value>Trình ghi bổ sung</value>
+  </data>
+	<data name="recordingoverlay" xml:space="preserve">
+    <value>Ghi lớp phủ</value>
+  </data>
+	<data name="rename" xml:space="preserve">
+    <value>Đổi tên</value>
+  </data>
+	<data name="ribbon_search" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+	<data name="runplugins" xml:space="preserve">
+    <value>Chạy plugin</value>
+  </data>
+	<data name="runtime" xml:space="preserve">
+    <value>Thời gian chạy</value>
+  </data>
+	<data name="save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+	<data name="selector" xml:space="preserve">
+    <value>Bộ chọn</value>
+  </data>
+	<data name="selectornetwork" xml:space="preserve">
+    <value>Mạng</value>
+  </data>
+	<data name="selectorverbose" xml:space="preserve">
+    <value>Chi tiết của bộ chọn</value>
+  </data>
+	<data name="settings" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+	<data name="settingsfile" xml:space="preserve">
+    <value>Tệp cài đặt</value>
+  </data>
+	<data name="signout" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+	<data name="slowmotion" xml:space="preserve">
+    <value>Chuyển động chậm</value>
+  </data>
+	<data name="status_disconnected" xml:space="preserve">
+    <value>Đã ngắt kết nối</value>
+  </data>
+	<data name="stop" xml:space="preserve">
+    <value>Dừng</value>
+  </data>
+	<data name="tesseract" xml:space="preserve">
+    <value>Tesseract</value>
+  </data>
+	<data name="tools" xml:space="preserve">
+    <value>Công cụ</value>
+  </data>
+	<data name="tools_change_type" xml:space="preserve">
+    <value>Đổi loại</value>
+  </data>
+	<data name="tools_swap_animate" xml:space="preserve">
+    <value>Hoán đổi hoạt ảnh</value>
+  </data>
+	<data name="tools_swap_sendkeys" xml:space="preserve">
+    <value>Hoán đổi SendKeys</value>
+  </data>
+	<data name="tools_swap_virtualclick" xml:space="preserve">
+    <value>Hoán đổi nhấp chuột ảo</value>
+  </data>
+	<data name="type" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+	<data name="uilanguage" xml:space="preserve">
+    <value>Ngôn ngữ giao diện người dùng</value>
+  </data>
+	<data name="uninstall" xml:space="preserve">
+    <value>Gỡ cài đặt</value>
+  </data>
+	<data name="update" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+	<data name="usesendkeys" xml:space="preserve">
+    <value>Sử dụng SendKeys</value>
+  </data>
+	<data name="usevirtualclicks" xml:space="preserve">
+    <value>Sử dụng nhấp chuột ảo</value>
+  </data>
+	<data name="value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+	<data name="verbose" xml:space="preserve">
+    <value>Verbose</value>
+  </data>
+	<data name="version" xml:space="preserve">
+    <value>Phiên bản</value>
+  </data>
+	<data name="visualtracking" xml:space="preserve">
+    <value>Theo dõi trực quan</value>
+  </data>
+	<data name="warning" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+</root>
