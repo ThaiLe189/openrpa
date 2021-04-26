@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="activity_assignopenflow" xml:space="preserve">
+    <value>Gán OpenFlow</value>
+  </data>
+	<data name="activity_assignopenflow_tooltip" xml:space="preserve">
+    <value>Chỉ định quy trình làm việc OpenFlow cho người dùng hoặc vai trò</value>
+  </data>
+	<data name="activity_click_to_view" xml:space="preserve">
+    <value>Bấm đúp để xem</value>
+  </data>
+	<data name="activity_deletefile" xml:space="preserve">
+    <value>Xóa tệp</value>
+  </data>
+	<data name="activity_deletefile_tooltip" xml:space="preserve">
+    <value>Xóa tệp khỏi cơ sở dữ liệu OpenFlow</value>
+  </data>
+	<data name="activity_deleteone" xml:space="preserve">
+    <value>Xóa một</value>
+  </data>
+	<data name="activity_deleteone_tooltip" xml:space="preserve">
+    <value>Xóa một mục trong cơ sở dữ liệu OpenFlow</value>
+  </data>
+	<data name="activity_filename" xml:space="preserve">
+    <value>Tên tệp</value>
+  </data>
+	<data name="activity_filename_hint" xml:space="preserve">
+    <value>Tên tệp</value>
+  </data>
+	<data name="activity_getcredentials" xml:space="preserve">
+    <value>Nhận thông tin đăng nhập</value>
+  </data>
+	<data name="activity_getcredentials_tooltip" xml:space="preserve">
+    <value>Nhận một tập hợp các thông tin đăng nhập được mã hóa từ OpenFlow</value>
+  </data>
+	<data name="activity_getfile" xml:space="preserve">
+    <value>Lấy tệp</value>
+  </data>
+	<data name="activity_getfile_tooltip" xml:space="preserve">
+    <value>Tải xuống tệp được lưu bên trong cơ sở dữ liệu OpenFlow</value>
+  </data>
+	<data name="activity_grantpermission" xml:space="preserve">
+    <value>Cấp phép</value>
+  </data>
+	<data name="activity_grantpermission_tooltip" xml:space="preserve">
+    <value>Thêm hoặc cập nhật quyền cho người dùng hoặc vai trò trên đối tượng được chỉ định, bạn phải cập nhật tài liệu trong OpenFlow</value>
+  </data>
+	<data name="activity_insertone" xml:space="preserve">
+    <value>Chèn một</value>
+  </data>
+	<data name="activity_insertone_tooltip" xml:space="preserve">
+    <value>Chèn một mục vào cơ sở dữ liệu OpenFlow</value>
+  </data>
+	<data name="activity_insertorupdateone" xml:space="preserve">
+    <value>Chèn hoặc cập nhật một</value>
+  </data>
+	<data name="activity_insertorupdateone_tooltip" xml:space="preserve">
+    <value>Chèn một mục vào cơ sở dữ liệu OpenFlow, cập nhật nếu đã tồn tại. kiểm tra _id trừ khi bạn chỉ định Tính duy nhất thì nó sẽ tìm các mục hiện có dựa trên các trường được đề cập trong Tính duy nhất</value>
+  </data>
+	<data name="activity_local_path" xml:space="preserve">
+    <value>Đường dẫn cục bộ </value>
+  </data>
+	<data name="activity_local_path_hint" xml:space="preserve">
+    <value>Lưu tệp vào thư mục này</value>
+  </data>
+	<data name="activity_perm_delete" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+	<data name="activity_perm_read" xml:space="preserve">
+    <value>Đọc</value>
+  </data>
+	<data name="activity_perm_update" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+	<data name="activity_query" xml:space="preserve">
+    <value>Truy vấn</value>
+  </data>
+	<data name="activity_query_tooltip" xml:space="preserve">
+    <value>Truy vấn cơ sở dữ liệu OpenFlow cho một hoặc nhiều mục</value>
+  </data>
+	<data name="activity_removepermission" xml:space="preserve">
+    <value>Xóa quyền</value>
+  </data>
+	<data name="activity_removepermission_tooltip" xml:space="preserve">
+    <value>Xóa quyền từ người dùng hoặc vai trò trên đối tượng được chỉ định, bạn phải cập nhật tài liệu trong OpenFlow</value>
+  </data>
+	<data name="activity_savefile" xml:space="preserve">
+    <value>Lưu tập tin</value>
+  </data>
+	<data name="activity_savefile_filename" xml:space="preserve">
+    <value>Tên tệp</value>
+  </data>
+	<data name="activity_savefile_filename_help" xml:space="preserve">
+    <value>Đường dẫn đầy đủ và tên tệp của tệp để tải lên</value>
+  </data>
+	<data name="activity_savefile_path" xml:space="preserve">
+    <value>Đường dẫn</value>
+  </data>
+	<data name="activity_savefile_path_help" xml:space="preserve">
+    <value>Lưu tệp trong thư mục con này trên máy chủ, điều này có ảnh hưởng khi lấy lại tệp</value>
+  </data>
+	<data name="activity_savefile_result" xml:space="preserve">
+    <value>Kết quả</value>
+  </data>
+	<data name="activity_savefile_result_help" xml:space="preserve">
+    <value>Trả về id của các tệp mới được tải lên</value>
+  </data>
+	<data name="activity_savefile_tooltip" xml:space="preserve">
+    <value>Tải lên và lưu tệp vào cơ sở dữ liệu OpenFlow</value>
+  </data>
+	<data name="activity_setcredentials" xml:space="preserve">
+    <value>Đặt thông tin xác thực</value>
+  </data>
+	<data name="activity_setcredentials_tooltip" xml:space="preserve">
+    <value>Tạo hoặc cập nhật một tập hợp thông tin đăng nhập được mã hóa trong OpenFlow</value>
+  </data>
+	<data name="activity_updatefromdataTable" xml:space="preserve">
+    <value>Cập nhật từ DataTable</value>
+  </data>
+	<data name="activity_updatefromdataTable_tooltip" xml:space="preserve">
+    <value>Cam kết các thay đổi được thực hiện trên DataTable trở lại OpenFlow, trả về danh sách các hàng được chèn và cập nhật</value>
+  </data>
+	<data name="activity_waitforcompleted" xml:space="preserve">
+    <value>Chờ cho đến khi hoàn thành</value>
+  </data>
+	<data name="activity_waitforcompleted_help" xml:space="preserve">
+    <value>Chờ Hoàn thành trước khi tiếp tục với quy trình làm việc</value>
+  </data>
+</root>
