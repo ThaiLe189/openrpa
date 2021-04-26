@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="activity_displayname" xml:space="preserve">
+    <value>Tên hiển thị</value>
+  </data>
+  <data name="activity_displayname_help" xml:space="preserve">
+    <value>Tên hiển thị bên trong trình thiết kế quy trình làm việc</value>
+  </data>
+  <data name="activity_element" xml:space="preserve">
+    <value>Thành phần</value>
+  </data>
+  <data name="activity_element_help" xml:space="preserve">
+    <value>Làm việc trên phần tử này, kiểu trả về của tất cả các hoạt động GetElementbyid và một số hoạt động khác</value>
+  </data>
+  <data name="activity_getcolor" xml:space="preserve">
+    <value>Nhận màu</value>
+  </data>
+  <data name="activity_getcolor_tooltip" xml:space="preserve">
+    <value>Nhận màu tại các tọa độ xác định.</value>
+  </data>
+  <data name="activity_getelement" xml:space="preserve">
+    <value>Nhận phần tử</value>
+  </data>
+  <data name="activity_getelement_drop_hint" xml:space="preserve">
+    <value>Bỏ hoạt động</value>
+  </data>
+  <data name="activity_getelement_highlight" xml:space="preserve">
+    <value>Đánh dấu</value>
+  </data>
+  <data name="activity_getelement_process_limit" xml:space="preserve">
+    <value>Giới hạn quy trình</value>
+  </data>
+  <data name="activity_getelement_select" xml:space="preserve">
+    <value>Chọn ảnh</value>
+  </data>
+  <data name="activity_getelement_tooltip" xml:space="preserve">
+    <value>Tìm hình ảnh trên màn hình hoặc bên trong một cửa sổ ứng dụng cụ thể</value>
+  </data>
+  <data name="activity_getimage" xml:space="preserve">
+    <value>Chọn ảnh</value>
+  </data>
+  <data name="activity_getimage_drop_hint" xml:space="preserve">
+    <value>Bỏ hoạt động</value>
+  </data>
+  <data name="activity_getimage_highlight" xml:space="preserve">
+    <value>Đánh dấu</value>
+  </data>
+  <data name="activity_getimage_select" xml:space="preserve">
+    <value>Chọn ảnh</value>
+  </data>
+  <data name="activity_getimage_tooltip" xml:space="preserve">
+    <value>Lấy hình ảnh của màn hình tương đối từ một hình ảnh hoặc phần tử khác được tìm thấy với GetElement</value>
+  </data>
+  <data name="activity_gettext" xml:space="preserve">
+    <value>Nhận văn bản</value>
+  </data>
+  <data name="activity_gettext_drop_hint" xml:space="preserve">
+    <value>Bỏ hoạt động</value>
+  </data>
+  <data name="activity_gettext_limit" xml:space="preserve">
+    <value>Giới hạn đến</value>
+  </data>
+  <data name="activity_gettext_limit_hint" xml:space="preserve">
+    <value>Chỉ tìm kiếm từ này</value>
+  </data>
+  <data name="activity_gettext_tooltip" xml:space="preserve">
+    <value>Sử dụng OCR lấy tất cả văn bản từ một hình ảnh, có thể được giới hạn trong một từ hoặc câu cụ thể</value>
+  </data>
+  <data name="activity_loadfile_drop_hint" xml:space="preserve">
+    <value>Bỏ hoạt động</value>
+  </data>
+  <data name="activity_loadfile_filename" xml:space="preserve">
+    <value>Tên tệp</value>
+  </data>
+  <data name="activity_loadfile_filename_hint" xml:space="preserve">
+    <value>Tệp hình ảnh cần tải</value>
+  </data>
+  <data name="activity_loadfromfile" xml:space="preserve">
+    <value>Tải từ tệp</value>
+  </data>
+  <data name="activity_loadfromfile_tooltip" xml:space="preserve">
+    <value>Tải hình ảnh từ tệp và trả về ImageElement</value>
+  </data>
+  <data name="activity_offsetx" xml:space="preserve">
+    <value>X Offset</value>
+  </data>
+  <data name="activity_offsetx_help" xml:space="preserve">
+    <value>Nhấp với phần bù này bên trong phần tử</value>
+  </data>
+  <data name="activity_offsety" xml:space="preserve">
+    <value>Y Offset</value>
+  </data>
+  <data name="activity_offsety_help" xml:space="preserve">
+    <value>Nhấp với phần bù này bên trong phần tử</value>
+  </data>
+  <data name="activity_takescreenshot" xml:space="preserve">
+    <value>Chụp màn hình</value>
+  </data>
+  <data name="activity_takescreenshot_tooltip" xml:space="preserve">
+    <value>Chụp ảnh màn hình của toàn bộ màn hình hoặc một phần tử cụ thể được tìm thấy bằng cách sử dụng Get Element</value>
+  </data>
+  <data name="plugin_recording_mouse_move_time" xml:space="preserve">
+    <value>Thời gian di chuyển chuột</value>
+  </data>
+  <data name="plugin_recording_mouse_move_time_help" xml:space="preserve">
+    <value>Đang ghi, di chuyển chuột ra xa X mili giây trước khi nhận được hình ảnh</value>
+  </data>
+</root>
