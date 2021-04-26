@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="activity_addparagraph" xml:space="preserve">
+    <value>Thêm đoạn văn</value>
+  </data>
+	<data name="activity_addparagraph_filename" xml:space="preserve">
+    <value>Tên tệp</value>
+  </data>
+	<data name="activity_addparagraph_filename_help" xml:space="preserve">
+    <value>Đường dẫn đầy đủ và tên tệp của tài liệu Microsoft Word để làm việc</value>
+  </data>
+	<data name="activity_addparagraph_index" xml:space="preserve">
+    <value>Chỉ mục</value>
+  </data>
+	<data name="activity_addparagraph_index_help" xml:space="preserve">
+    <value>Thêm đoạn văn mới vào chỉ mục này (không lập chỉ mục) Để trống để thêm vào cuối tài liệu</value>
+  </data>
+	<data name="activity_addparagraph_text" xml:space="preserve">
+    <value>Bản văn</value>
+  </data>
+	<data name="activity_addparagraph_text_help" xml:space="preserve">
+    <value>Văn bản để thêm</value>
+  </data>
+	<data name="activity_addparagraph_tooltip" xml:space="preserve">
+    <value>Thêm một Đoạn văn mới vào tài liệu Microsoft Word</value>
+  </data>
+	<data name="activity_clearrange" xml:space="preserve">
+    <value>Xóa khoảng</value>
+  </data>
+	<data name="activity_clearrange_cells" xml:space="preserve">
+    <value>Ô</value>
+  </data>
+	<data name="activity_clearrange_cells_help" xml:space="preserve">
+    <value>Đặt những ô cần xóa, để trống để xóa tất cả các ô</value>
+  </data>
+	<data name="activity_clearrange_tooltip" xml:space="preserve">
+    <value>Xóa tất cả dữ liệu và định dạng khỏi một loạt ô</value>
+  </data>
+	<data name="activity_closedocument" xml:space="preserve">
+    <value>Đóng tài liệu</value>
+  </data>
+	<data name="activity_closedocument_filename" xml:space="preserve">
+    <value>Tên tệp</value>
+  </data>
+	<data name="activity_closedocument_filename_help" xml:space="preserve">
+    <value>Đường dẫn đầy đủ và tên tệp của tài liệu Microsoft Word để làm việc</value>
+  </data>
+	<data name="activity_closedocument_savechanges" xml:space="preserve">
+    <value>Lưu thay đổ</value>
+  </data>
+	<data name="activity_closedocument_savechanges_help" xml:space="preserve">
+    <value>Đặt thành true, để lưu tệp word, đặt thành false để loại bỏ bất kỳ thay đổi nào đã thực hiện</value>
+  </data>
+	<data name="activity_closedocument_tooltip" xml:space="preserve">
+    <value>Đóng tài liệu Microsoft Word nếu đang mở, cũng sẽ đóng word nếu không còn tài liệu nào được mở</value>
+  </data>
+	<data name="activity_closeworkbook" xml:space="preserve">
+    <value>Đóng sổ làm việc</value>
+  </data>
+	<data name="activity_closeworkbook_filename" xml:space="preserve">
+    <value>Tên tệp</value>
+  </data>
+	<data name="activity_closeworkbook_filename_help" xml:space="preserve">
+    <value>Đường dẫn đầy đủ và tên tệp của tài liệu Microsoft Word để làm việc</value>
+  </data>
+	<data name="activity_closeworkbook_savechanges" xml:space="preserve">
+    <value>Lưu thay đổ</value>
+  </data>
+	<data name="activity_closeworkbook_savechanges_help" xml:space="preserve">
+    <value>Đặt thành true, để lưu tệp excel, đặt thành false để loại bỏ bất kỳ thay đổi nào được thực hiện</value>
+  </data>
+	<data name="activity_closeworkbook_tooltip" xml:space="preserve">
+    <value>Đóng Sổ làm việc nếu đang mở, cũng sẽ đóng excel nếu không còn sổ làm việc nào được mở</value>
+  </data>
+	<data name="activity_closeworkbook_workbook" xml:space="preserve">
+    <value>Workbook</value>
+  </data>
+	<data name="activity_closeworkbook_workbook_help" xml:space="preserve">
+    <value>Sử dụng biến sổ làm việc Microsoft Excel để làm việc với</value>
+  </data>
+	<data name="activity_drop_hint" xml:space="preserve">
+    <value>Bỏ hoạt động</value>
+  </data>
+	<data name="activity_filename" xml:space="preserve">
+    <value>Tên tệp</value>
+  </data>
+	<data name="activity_getemails_reload" xml:space="preserve">
+    <value>Tải lại</value>
+  </data>
+	<data name="activity_getmails" xml:space="preserve">
+    <value>Nhận thư</value>
+  </data>
+	<data name="activity_getmails_filter" xml:space="preserve">
+    <value>Bộ lọc</value>
+  </data>
+	<data name="activity_getmails_filter_hint" xml:space="preserve">
+    <value>Lọc email theo truy vấn</value>
+  </data>
+	<data name="activity_getmails_tooltip" xml:space="preserve">
+    <value>Nhận tất cả email từ thư mục Microsoft Outlook</value>
+  </data>
+	<data name="activity_getparagraph" xml:space="preserve">
+    <value>Nhận đoạn văn</value>
+  </data>
+	<data name="activity_getparagraph_count" xml:space="preserve">
+    <value>Đếm</value>
+  </data>
+	<data name="activity_getparagraph_count_help" xml:space="preserve">
+    <value>Trả về số lượng đoạn văn trong tài liệu Microsoft Word</value>
+  </data>
+	<data name="activity_getparagraph_filename" xml:space="preserve">
+    <value>Tên tệp</value>
+  </data>
+	<data name="activity_getparagraph_filename_help" xml:space="preserve">
+    <value>Đường dẫn đầy đủ và tên tệp của tài liệu Microsoft Word để làm việc</value>
+  </data>
+	<data name="activity_getparagraph_index" xml:space="preserve">
+    <value>Chỉ mục</value>
+  </data>
+	<data name="activity_getparagraph_index_help" xml:space="preserve">
+    <value>Nhận tất cả nội dung của đoạn văn với chỉ mục này và thêm MaxResults. Để trống trường này để lấy toàn bộ tài liệu word</value>
+  </data>
+	<data name="activity_getparagraph_maxresults" xml:space="preserve">
+    <value>Kết quả lớn nhất</value>
+  </data>
+	<data name="activity_getparagraph_maxresults_help" xml:space="preserve">
+    <value>Giới hạn số lượng đoạn văn để lấy, để trống hoặc ở 0 để lấy tất cả từ Chỉ mục trở đi</value>
+  </data>
+	<data name="activity_getparagraph_text" xml:space="preserve">
+    <value>Văn bản</value>
+  </data>
+	<data name="activity_getparagraph_text_help" xml:space="preserve">
+    <value>Lưu các đoạn đã đọc vào biến này</value>
+  </data>
+	<data name="activity_getparagraph_tooltip" xml:space="preserve">
+    <value>Lấy một hoặc nhiều đoạn văn từ tài liệu Microsoft Word</value>
+  </data>
+	<data name="activity_getselectedrange" xml:space="preserve">
+    <value>Nhận khoảng đã chọn</value>
+  </data>
+	<data name="activity_getselectedrange_tooltip" xml:space="preserve">
+    <value>Lấy các ô hiện được chọn trong trang tính được chỉ định</value>
+  </data>
+	<data name="activity_movemailitem" xml:space="preserve">
+    <value>Di chuyển MailItem</value>
+  </data>
+	<data name="activity_movemailitem_tooltip" xml:space="preserve">
+    <value>Di chuyển thư nhận được bằng GetEmails sang một thư mục khác</value>
+  </data>
+	<data name="activity_movemail_mail" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+	<data name="activity_movemail_mail_hint" xml:space="preserve">
+    <value>Mail cần di chuyển</value>
+  </data>
+	<data name="activity_newmailitem" xml:space="preserve">
+    <value>Mục thư mới</value>
+  </data>
+	<data name="activity_newmailitem_tooltip" xml:space="preserve">
+    <value>Tạo một Microsoft Outlook Mailitem mới</value>
+  </data>
+	<data name="activity_password" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+	<data name="activity_protectworksheet" xml:space="preserve">
+    <value>Bảo vệ trang tính</value>
+  </data>
+	<data name="activity_protectworksheet_tooltip" xml:space="preserve">
+    <value>Bảo vệ trang tính hiện tại khỏi những thay đổi</value>
+  </data>
+	<data name="activity_readcell" xml:space="preserve">
+    <value>Đọc ô</value>
+  </data>
+	<data name="activity_readcell_tooltip" xml:space="preserve">
+    <value>Đọc nội dung của một ô trong Microsoft Excel</value>
+  </data>
+	<data name="activity_readrange" xml:space="preserve">
+    <value>Đọc khoảng</value>
+  </data>
+	<data name="activity_readrange_clearformats" xml:space="preserve">
+    <value>Xóa định dạng</value>
+  </data>
+	<data name="activity_readrange_clearformats_help" xml:space="preserve">
+    <value>Đặt thành true để xóa tất cả định dạng khỏi trang tính đã chọn</value>
+  </data>
+	<data name="activity_readrange_tooltip" xml:space="preserve">
+    <value>Đọc phạm vi từ trang tính Microsoft Excel</value>
+  </data>
+	<data name="activity_readrange_useheaderrow" xml:space="preserve">
+    <value>Sử dụng hàng tiêu đề</value>
+  </data>
+	<data name="activity_readrange_useheaderrow_help" xml:space="preserve">
+    <value>Nếu phạm vi lựa chọn cũng chứa một hàng tiêu đề với các tên cột, hãy đặt giá trị này thành true, nếu không thì để trống (sau đó tất cả các cloumns sẽ không có tên)</value>
+  </data>
+	<data name="activity_replymailitem" xml:space="preserve">
+    <value>Phản hồi MailItem</value>
+  </data>
+	<data name="activity_replymailitem_tooltip" xml:space="preserve">
+    <value>Tạo thư trả lời cho Microsoft Outlook Mailitem</value>
+  </data>
+	<data name="activity_runexcelmacro" xml:space="preserve">
+    <value>Chạy Excel Macro</value>
+  </data>
+	<data name="activity_runexcelmacro_name_hint" xml:space="preserve">
+    <value>Tên macro</value>
+  </data>
+	<data name="activity_runexcelmacro_tooltip" xml:space="preserve">
+    <value>Chạy Macro trong sổ làm việc Excel. Tệp Workbook cần được bật cho Macro</value>
+  </data>
+	<data name="activity_runslideshow" xml:space="preserve">
+    <value>Chạy trình chiếu</value>
+  </data>
+	<data name="activity_runslideshow_tooltip" xml:space="preserve">
+    <value>Mở Bản trình bày Microsoft Powerpoint và bắt đầu trình chiếu</value>
+  </data>
+	<data name="activity_savemailitem" xml:space="preserve">
+    <value>Lưu mục thư</value>
+  </data>
+	<data name="activity_savemailitem_tooltip" xml:space="preserve">
+    <value>Lưu mục Thư Microsoft Outlook dưới dạng tệp</value>
+  </data>
+	<data name="activity_setparagraph" xml:space="preserve">
+    <value>Đặt đoạn văn</value>
+  </data>
+	<data name="activity_setparagraph_filename" xml:space="preserve">
+    <value>Tên tệp</value>
+  </data>
+	<data name="activity_setparagraph_filename_help" xml:space="preserve">
+    <value>Đường dẫn đầy đủ và tên tệp của tài liệu Microsoft Word để làm việc</value>
+  </data>
+	<data name="activity_setparagraph_index" xml:space="preserve">
+    <value>Chỉ mục</value>
+  </data>
+	<data name="activity_setparagraph_index_help" xml:space="preserve">
+    <value>Overwrite content in the paragraph with this index, set 0 to overwrite the entire word document</value>
+  </data>
+	<data name="activity_setparagraph_text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+	<data name="activity_setparagraph_text_help" xml:space="preserve">
+    <value>Văn bản để thiết lập</value>
+  </data>
+	<data name="activity_setparagraph_tooltip" xml:space="preserve">
+    <value>Đặt nội dung của một đoạn trong tài liệu Microsoft Word</value>
+  </data>
+	<data name="activity_unprotectworksheet" xml:space="preserve">
+    <value>Bỏ bảo vệ trang tính</value>
+  </data>
+	<data name="activity_unprotectworksheet_tooltip" xml:space="preserve">
+    <value>Loại bỏ bảo vệ của trang tính hiện tại</value>
+  </data>
+	<data name="activity_writecell" xml:space="preserve">
+    <value>Viết ô</value>
+  </data>
+	<data name="activity_writecell_tooltip" xml:space="preserve">
+    <value>Đặt một giá trị hoặc công thức cho một ô trong Microsoft Excel</value>
+  </data>
+	<data name="activity_writerange" xml:space="preserve">
+    <value>Viết Khoảng</value>
+  </data>
+	<data name="activity_writerange_cells" xml:space="preserve">
+    <value>Ô</value>
+  </data>
+	<data name="activity_writerange_cells_help" xml:space="preserve">
+    <value>Đặt ô đầu tiên để bắt đầu viết từ đó, để trống để bắt đầu từ hàng trống cuối cùng trong cột A</value>
+  </data>
+	<data name="activity_writerange_datatable" xml:space="preserve">
+    <value>Bảng dữ liệu</value>
+  </data>
+	<data name="activity_writerange_datatable_help" xml:space="preserve">
+    <value>Cơ sở dữ liệu chứa dữ liệu để thêm vào Excel</value>
+  </data>
+	<data name="activity_writerange_tooltip" xml:space="preserve">
+    <value>Ghi tất cả dữ liệu từ DataTable vào một phạm vi bên trong trang tính Microsoft Excel</value>
+  </data>
+	<data name="activity_writerange_useheaderrow" xml:space="preserve">
+    <value>Sử dụng hàng tiêu đề</value>
+  </data>
+	<data name="activity_writerange_useheaderrow_help" xml:space="preserve">
+    <value>Nếu được đặt thành true, cũng sẽ thêm hàng tiêu đề với tên cột là hàng đầu tiên, được đặt thành false để chỉ thêm dữ liệu</value>
+  </data>
+</root>
