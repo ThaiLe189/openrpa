@@ -117,49 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="activity_click_to_view" xml:space="preserve">
-    <value>Bấm đúp để xem</value>
+  <data name="plugin_filter" xml:space="preserve">
+    <value>Bộ lọc tệp</value>
   </data>
-  <data name="activity_playrecording" xml:space="preserve">
-    <value>Phát ghi âm</value>
+  <data name="plugin_includesubdir" xml:space="preserve">
+    <value>Thư mục con</value>
   </data>
-  <data name="activity_playrecording_tooltip" xml:space="preserve">
-    <value>Phát lại bản ghi video</value>
+  <data name="plugin_name" xml:space="preserve">
+    <value>Tên</value>
   </data>
-  <data name="activity_play_hint" xml:space="preserve">
-    <value>Phát tệp video này</value>
-  </data>
-  <data name="activity_startrecording" xml:space="preserve">
-    <value>Bắt đầu ghi âm</value>
-  </data>
-  <data name="activity_startrecording_tooltip" xml:space="preserve">
-    <value>Bắt đầu ghi màn hình thành tệp</value>
-  </data>
-  <data name="activity_start_hint" xml:space="preserve">
-    <value>Lưu trong thư mục này</value>
-  </data>
-  <data name="activity_stoprecording" xml:space="preserve">
-    <value>Dừng ghi</value>
-  </data>
-  <data name="activity_stoprecording_tooltip" xml:space="preserve">
-    <value>Dừng ghi màn hình đang chạy và lưu vào tệp</value>
-  </data>
-  <data name="activity_stop_hint" xml:space="preserve">
-    <value>Lưu tên tệp video</value>
-  </data>
-  <data name="plugin_codec" xml:space="preserve">
-    <value>Codec</value>
-  </data>
-  <data name="plugin_enabled" xml:space="preserve">
-    <value>Bật</value>
-  </data>
-  <data name="plugin_keep_successful" xml:space="preserve">
-    <value>Tiếp tục thành công</value>
-  </data>
-  <data name="plugin_quality" xml:space="preserve">
-    <value>Chất lượng ghi âm</value>
-  </data>
-  <data name="plugin_save_in_folder" xml:space="preserve">
-    <value>Lưu trong thư mục</value>
+  <data name="plugin_path" xml:space="preserve">
+    <value>Đường dẫn</value>
   </data>
 </root>
